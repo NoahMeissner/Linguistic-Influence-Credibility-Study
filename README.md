@@ -13,6 +13,7 @@ Camilla Dütsch [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitu
 Simon Manzenberger [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
 Noah Meißner [LinkedIN](https://www.linkedin.com/in/noah-mei%C3%9Fner/)<br>
 
+![PlotCredible](Photos/PlotCredible.png)
 
 ## System
 
