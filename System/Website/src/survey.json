@@ -1,0 +1,84 @@
+{
+    "pages": [{
+        "elements": [{
+            "name": "stance-topic-1",
+            "title": "Whats your stance to topic 1?",
+            "type": "rating",
+            "rateMin": -3,
+            "rateMax": 3,
+            "isRequired": true
+            }, {
+            "name": "knowledge-topic-1",
+            "title": "What is your level of knowledge on topic 1",
+            "type": "rating",
+            "rateMin": 1,
+            "rateMax": 7,
+            "isRequired": true
+            },{
+            "name": "stance-topic-2",
+            "title": "Whats your stance to topic 2?",
+            "type": "rating",
+            "rateMin": -3,
+            "rateMax": 3,
+            "isRequired": true
+            }, {
+            "name": "knowledge-topic-1",
+            "title": "What is your level of knowledge on topic 2",
+            "type": "rating",
+            "rateMin": 1,
+            "rateMax": 7,
+            "isRequired": true
+            }]
+    }, {
+        "elements": [{
+                "name": "what-would-make-you-more-satisfied",
+                "title": "What can we do to make your experience more satisfying?",
+                "type": "comment"
+            }, {
+                "name": "nps-score",
+                "title": "On a scale of zero to ten, how likely are you to recommend our product to a friend or colleague?",
+                "type": "rating",
+                "rateMin": -3,
+                "rateMax": 3
+            }]
+    }, {
+        "elements": [{
+            "name": "age",
+            "type": "text",
+            "title": "How old are you?",
+            "inputType": "number",
+            "placeholder": "e.g 18",
+            "min": 0,
+            "max": 100,
+            "isRequired": true
+          },
+          {
+            "type": "dropdown",
+            "name": "sex",
+            "title": "What gender do you identify with?",
+            "isRequired": true,
+            "showNoneItem": true,
+            "showOtherItem": true,
+            "choices": [ "Female", "Male", "Divers"]
+          },
+          {
+            "type": "dropdown",
+            "name": "education-level",
+            "title": "What is your highest level of education",
+            "isRequired": true,
+            "showNoneItem": true,
+            "showOtherItem": true,
+            "choices": [ "Female", "Male", "Divers"]
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "title": "What's your current occupation? (e.g.: if you are currently studying at a university insert 'Student')",
+            "inputType": "text",
+            "placeholder":"e.g. Student",
+            "isRequired": true
+          }]
+    }],
+    
+    "showPrevButton": false
+}
