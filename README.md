@@ -12,3 +12,21 @@ Samuel Bullard [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitud
 Camilla Dütsch [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
 Simon Manzenberger [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
 Noah Meißner [LinkedIN](https://www.linkedin.com/in/noah-mei%C3%9Fner/)<br>
+
+
+## System
+
+### General Questions
+![GeneralQuestions](Photos/GeneralQuestion.png)
+
+### Pre Tasks
+![Pre Tasks](Photos/PreTask.png)
+
+### Scenario
+![Scenario](Photos/Scenario.png)
+
+### Article
+![Article](Photos/Article.png)
+
+### PostTask
+![PostTask](Photos/PostTask.png)
