@@ -15,7 +15,6 @@ Noah Meißner [LinkedIN](https://www.linkedin.com/in/noah-mei%C3%9Fner/)<br>
 
 
 ## System
-![System](Photos/PreTask.png)
 
 ### General Questions
 ![GeneralQuestions](Photos/GeneralQuestion.png)
