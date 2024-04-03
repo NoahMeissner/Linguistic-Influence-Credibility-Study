@@ -1,7 +1,7 @@
 # Linguistic-Influence-Credibility-Study
 
 [System Branch](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
-[Statistical Analysis](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/Statistical_Analyse)
+[Statistical Analysis](https://github.com/NoahMeissner/Linguistic-Influence-Credibility-Study/tree/Statistical-Analysis)
 
 
 ## Abstract
