@@ -9,11 +9,12 @@ In the digital age, blog posts have become increasingly important as sources of 
 
 ## Team
 Samuel Bullard [GitHub](https://github.com/abullard1) / [LinkedIN](https://www.linkedin.com/in/samuel-bullard)<br>
-Camilla Dütsch [LinkedIN](https://www.linkedin.com/in/camilla-d%C3%BCtsch-103482302/)<br>
-Simon Manzenberger [LinkedIN](https://www.linkedin.com/in/simon-manzenberger/)<br>
+Camilla Dütsch [GitHub](https://github.com/Camilla171) / [LinkedIN](https://www.linkedin.com/in/camilla-d%C3%BCtsch-103482302/)<br> 
+Simon Manzenberger [GitHub](https://github.com/simon-mzb) / [LinkedIN](https://www.linkedin.com/in/simon-manzenberger/)<br>
 Noah Meißner [LinkedIN](https://www.linkedin.com/in/noah-mei%C3%9Fner/)<br>
 
 ![PlotCredible](Photos/Plot_Credible.png)
+
 
 ## System
 
