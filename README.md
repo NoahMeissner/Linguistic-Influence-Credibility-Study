@@ -10,7 +10,7 @@ In the digital age, blog posts have become increasingly important as sources of 
 ## Team
 Samuel Bullard [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
 Camilla Dütsch [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
-Simon Manzenberger [LinkedIN](https://github.com/NoahMeissner/RAG-Impact-UserAttitudes/tree/System)<br>
+Simon Manzenberger [LinkedIN](https://www.linkedin.com/in/simon-manzenberger/)<br>
 Noah Meißner [LinkedIN](https://www.linkedin.com/in/noah-mei%C3%9Fner/)<br>
 
 ![PlotCredible](Photos/Plot_Credible.png)
