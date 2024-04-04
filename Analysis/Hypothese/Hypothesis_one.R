@@ -13,6 +13,21 @@ topic_D <- read.csv("Modified/Topic_D.csv")
 
 print(nrow(topic_A))
 
+ggplot(all_topics, aes(x = factor(soloCondition), y = A_TextCredible)) +
+  geom_boxplot() +
+  xlab("Language") +  # Updated label to "Language"
+  ylab("Text Credible Values")
+
+
+ggplot(all_topics, aes(x = factor(soloCondition, 
+                                  levels = c("englisch_leicht", "englisch_schwer", "deutsch_leicht", "deutsch_schwer"),
+                                  labels = c("English Easy", "English Hard", "German Easy",  "German Hard")), y = A_TextCredible)) +
+  geom_boxplot() +
+  xlab("Language and Difficulty") +  # Anpassung für Klarheit
+  ylab("Text Credibility Values") +
+  ggtitle("Topic ALL Text Credibility")
+
+
 #######################
 # H1: The choice of language affects the perception of credibility of educational blog articles
 #######################
@@ -74,10 +89,10 @@ topic_D_selected <- topic_D_selected %>% mutate(source = 'D')
 all_topics <- bind_rows(topic_A_selected, topic_B_selected, topic_C_selected, topic_D_selected)
 
 
-ggplot(all_topics, aes(x = as.factor(numbercondition), y = A_TextCredible)) +
+ggplot(all_topics, aes(x = factor(numbercondition, levels = c(0, 1), labels = c("English", "German")), y = A_TextCredible)) +
   geom_boxplot() +
-  xlab("Number Condition") +
-  ylab("A_TextCredible Werte") +
+  xlab("Language") +  # Updated label to "Language"
+  ylab("Text Credible Values") +
   ggtitle("Topic ALL Text Credible")
 
 
@@ -93,6 +108,10 @@ shapiro.test(topic_B_selected %>% pull(A_TextCredible)) # p_value 5.699e-05
 shapiro.test(topic_C_selected %>% pull(A_TextCredible)) # p_value 0.05754 -> t
 shapiro.test(topic_D_selected %>% pull(A_TextCredible)) # p_value 0.0005144
 shapiro.test(all_topics %>% pull(A_TextCredible)) # p_value 8.803e-09
+
+
+kruskal_results <- kruskal.test(A_TextCredible ~ soloCondition, data = all_topics)
+print(kruskal_results) # p_value 0.428
 
 
 result <- wilcox.test(A_TextCredible ~ numbercondition, data = topic_A_selected, exact = TRUE)
